@@ -1,6 +1,6 @@
 # agentic-ai-demo
 Agentic AI • RAG • AI Orchestration • Semantic Search • Secure AI • Human-in-the-Loop • AI Governance • Workflow Automation
-'''
+```
                     ┌─────────────┐
                     │   SQLite    │
                     │ structured  │
@@ -21,7 +21,7 @@ User → API → Orchestration ┼────────→ LLM → Response
                      embeddings
                            │
                 PDFs / policies / contracts
-'''
+```
 
 Document → Chunk →  Embedding →  Vector →  Qdrant collection →  Similarity search →  Relevant chunks →  LLM context
 
@@ -102,7 +102,7 @@ _→ First prove that RAG + orchestration works.
   known limitations
 
 *** Layout ***
-'''
+```
   agentic-ai-demo/
 │
 ├── README.md
@@ -127,4 +127,4 @@ _→ First prove that RAG + orchestration works.
 │
 ├── requirements.txt
 └── .gitignore
-'''
+```
