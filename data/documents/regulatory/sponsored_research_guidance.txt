@@ -1,0 +1,25 @@
+DOCUMENT ID: REG-001
+TITLE: Sponsored Research Compliance Guidance
+DOCUMENT TYPE: Regulatory Guidance
+OWNER: Research Compliance Office
+CLASSIFICATION: Public
+VERSION: 1.0
+SOURCE: Synthetic demonstration data
+
+OVERVIEW
+
+Sponsored research projects must comply with applicable institutional,
+sponsor, contractual, and regulatory requirements.
+
+Research administrators should verify relevant compliance requirements
+before approving significant project changes.
+
+Potential conflicts of interest, data-use restrictions, and research
+protocol requirements should be evaluated using authoritative source
+documents.
+
+Automated systems may assist with retrieval and analysis but should not
+invent missing regulatory requirements.
+
+When evidence is insufficient, the appropriate response is to identify
+the limitation and escalate the issue for human review.

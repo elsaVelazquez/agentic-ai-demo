@@ -1,0 +1,29 @@
+DOCUMENT ID: PROTOCOL-001
+TITLE: AI Research Review Protocol
+DOCUMENT TYPE: Protocol
+OWNER: Research Compliance Office
+CLASSIFICATION: Internal
+VERSION: 1.0
+SOURCE: Synthetic demonstration data
+
+PURPOSE
+
+This protocol defines review procedures for research projects using
+artificial intelligence systems.
+
+REVIEW REQUIREMENTS
+
+Research teams must document:
+
+- intended AI use
+- source data
+- access controls
+- model provider
+- data retention requirements
+- human oversight procedures
+
+Projects involving sensitive research information require confirmation
+that institutional data is not exposed to unauthorized model providers.
+
+Questions that cannot be resolved from available evidence must be
+escalated to the appropriate research administrator.
