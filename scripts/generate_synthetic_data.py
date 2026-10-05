@@ -58,8 +58,188 @@ def create_database():
 
 
 def create_documents():
-    """Create fictional research-administration documents."""
-    pass
+    """Create fictional research-administration documents for the demo."""
+
+    documents = {
+        "policies/conflict_of_interest_policy.txt": """
+DOCUMENT ID: POLICY-COI-001
+TITLE: Financial Conflict of Interest Policy
+DOCUMENT TYPE: Policy
+OWNER: Office of Research Administration
+CLASSIFICATION: Internal
+VERSION: 1.0
+EFFECTIVE DATE: 2026-01-01
+SOURCE: Synthetic demonstration data
+
+PURPOSE
+
+This policy establishes requirements for identifying, disclosing,
+reviewing, and managing financial conflicts of interest associated
+with sponsored research.
+
+POLICY
+
+Investigators participating in sponsored research must disclose
+significant financial interests that could reasonably appear to
+affect the design, conduct, reporting, or administration of research.
+
+Disclosures must be submitted before participation in a new sponsored
+research project and updated when relevant financial circumstances change.
+
+Active sponsored projects may require review when a new financial
+conflict is identified.
+
+The Office of Research Administration will determine whether a
+management plan, additional review, or other action is required.
+
+If sufficient information is not available to determine whether a
+conflict exists, the matter must be escalated for human review.
+""",
+
+        "grants/ai_clinical_decision_support.txt": """
+DOCUMENT ID: GRANT-DOC-001
+TITLE: AI-Assisted Clinical Decision Support
+DOCUMENT TYPE: Grant
+OWNER: Office of Research Administration
+CLASSIFICATION: Internal
+VERSION: 1.0
+SOURCE: Synthetic demonstration data
+
+PRINCIPAL INVESTIGATOR
+
+Dr. Maya Chen
+Department of Biomedical Engineering
+
+PROJECT SUMMARY
+
+The AI-Assisted Clinical Decision Support project investigates methods
+for using machine learning to support clinical research workflows.
+
+The project includes development and evaluation of artificial intelligence
+models for research decision support.
+
+SPONSOR
+
+National Science Foundation
+
+GRANT IDENTIFIER
+
+GRANT-001
+
+PROJECT STATUS
+
+Active
+
+AWARD AMOUNT
+
+$450,000
+
+COMPLIANCE NOTES
+
+The project is subject to applicable institutional research policies,
+including financial conflict-of-interest requirements.
+""",
+
+        "contracts/research_data_agreement.txt": """
+DOCUMENT ID: CONTRACT-001
+TITLE: Synthetic Research Data Use Agreement
+DOCUMENT TYPE: Contract
+OWNER: Office of Research Administration
+CLASSIFICATION: Internal
+VERSION: 1.0
+SOURCE: Synthetic demonstration data
+
+PURPOSE
+
+This fictional agreement defines requirements for handling research
+information used in collaborative projects.
+
+DATA HANDLING
+
+Research data classified as internal may only be accessed by authorized
+project personnel.
+
+Sensitive institutional data must not be transmitted to unauthorized
+external services.
+
+Any automated AI system processing protected information must enforce
+applicable access controls and maintain source provenance.
+
+Human review is required when contractual requirements are ambiguous.
+""",
+
+        "protocols/ai_research_protocol.txt": """
+DOCUMENT ID: PROTOCOL-001
+TITLE: AI Research Review Protocol
+DOCUMENT TYPE: Protocol
+OWNER: Research Compliance Office
+CLASSIFICATION: Internal
+VERSION: 1.0
+SOURCE: Synthetic demonstration data
+
+PURPOSE
+
+This protocol defines review procedures for research projects using
+artificial intelligence systems.
+
+REVIEW REQUIREMENTS
+
+Research teams must document:
+
+- intended AI use
+- source data
+- access controls
+- model provider
+- data retention requirements
+- human oversight procedures
+
+Projects involving sensitive research information require confirmation
+that institutional data is not exposed to unauthorized model providers.
+
+Questions that cannot be resolved from available evidence must be
+escalated to the appropriate research administrator.
+""",
+
+        "regulatory/sponsored_research_guidance.txt": """
+DOCUMENT ID: REG-001
+TITLE: Sponsored Research Compliance Guidance
+DOCUMENT TYPE: Regulatory Guidance
+OWNER: Research Compliance Office
+CLASSIFICATION: Public
+VERSION: 1.0
+SOURCE: Synthetic demonstration data
+
+OVERVIEW
+
+Sponsored research projects must comply with applicable institutional,
+sponsor, contractual, and regulatory requirements.
+
+Research administrators should verify relevant compliance requirements
+before approving significant project changes.
+
+Potential conflicts of interest, data-use restrictions, and research
+protocol requirements should be evaluated using authoritative source
+documents.
+
+Automated systems may assist with retrieval and analysis but should not
+invent missing regulatory requirements.
+
+When evidence is insufficient, the appropriate response is to identify
+the limitation and escalate the issue for human review.
+""",
+    }
+
+    for relative_path, content in documents.items():
+        file_path = DOCUMENTS_DIR / relative_path
+
+        file_path.parent.mkdir(parents=True, exist_ok=True)
+
+        file_path.write_text(
+            content.strip() + "\n",
+            encoding="utf-8",
+        )
+
+        print(f"Created: {file_path}")
 
 
 def insert_synthetic_data():
@@ -142,8 +322,8 @@ def main():
     """Generate all synthetic demo data."""
     create_directories()
     create_database()
-    # create_documents()
     insert_synthetic_data()
+    create_documents()
     print("All synthetic demo data generated successfully.")    
 
 
