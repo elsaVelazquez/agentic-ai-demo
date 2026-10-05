@@ -1,5 +1,12 @@
 # agentic-ai-demo
 Agentic AI • RAG • AI Orchestration • Semantic Search • Secure AI • Human-in-the-Loop • AI Governance • Workflow Automation
+
+Note: This repo uses strictly reproducible synthetic source data. The SQLite db is generated locally, not committed as a binary artifact to make the demo inspectable and reproducible while showcasing instructions dont need to expose PII or real data.
+
+GitHub = code + schema + synthetic examples
+Local runtime = generated DB + embeddings/vector store
+Secrets = .env, never GitHub
+
 ```
                     ┌─────────────┐
                     │   SQLite    │
@@ -86,6 +93,7 @@ Document → Chunk →  Embedding →  Vector →  Qdrant collection →  Simila
 - productivity improvement
 - corpus / source material
 
+Workflow automation is a key component of the AI demo. It automates the retrieval and retrieval inference processes, allowing users to focus on the decision logic and HITL.
 > First prove that RAG + orchestration works.  
 > Then decide whether model optimization or fine-tuning is actually necessary.
 
