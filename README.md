@@ -130,7 +130,8 @@ Workflow automation is a key component of the AI demo. It automates the retrieva
 │
 ├── data/
 │   ├── structured/
-│   │   └── research_admin.db
+│   │   |── research_admin.db
+    |   ├── schema.sql
 │   │
 │   └── documents/
 │       ├── policies/
