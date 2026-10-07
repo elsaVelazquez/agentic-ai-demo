@@ -1,0 +1,32 @@
+DOCUMENT ID: POLICY-COI-001
+TITLE: Financial Conflict of Interest Policy
+DOCUMENT TYPE: Policy
+OWNER: Office of Research Administration
+CLASSIFICATION: Internal
+VERSION: 1.0
+EFFECTIVE DATE: 2026-01-01
+SOURCE: Synthetic demonstration data
+
+PURPOSE
+
+This policy establishes requirements for identifying, disclosing,
+reviewing, and managing financial conflicts of interest associated
+with sponsored research.
+
+POLICY
+
+Investigators participating in sponsored research must disclose
+significant financial interests that could reasonably appear to
+affect the design, conduct, reporting, or administration of research.
+
+Disclosures must be submitted before participation in a new sponsored
+research project and updated when relevant financial circumstances change.
+
+Active sponsored projects may require review when a new financial
+conflict is identified.
+
+The Office of Research Administration will determine whether a
+management plan, additional review, or other action is required.
+
+If sufficient information is not available to determine whether a
+conflict exists, the matter must be escalated for human review.

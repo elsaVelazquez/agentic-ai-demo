@@ -1,0 +1,25 @@
+DOCUMENT ID: CONTRACT-001
+TITLE: Synthetic Research Data Use Agreement
+DOCUMENT TYPE: Contract
+OWNER: Office of Research Administration
+CLASSIFICATION: Internal
+VERSION: 1.0
+SOURCE: Synthetic demonstration data
+
+PURPOSE
+
+This fictional agreement defines requirements for handling research
+information used in collaborative projects.
+
+DATA HANDLING
+
+Research data classified as internal may only be accessed by authorized
+project personnel.
+
+Sensitive institutional data must not be transmitted to unauthorized
+external services.
+
+Any automated AI system processing protected information must enforce
+applicable access controls and maintain source provenance.
+
+Human review is required when contractual requirements are ambiguous.

@@ -1,0 +1,41 @@
+DOCUMENT ID: GRANT-DOC-001
+TITLE: AI-Assisted Clinical Decision Support
+DOCUMENT TYPE: Grant
+OWNER: Office of Research Administration
+CLASSIFICATION: Internal
+VERSION: 1.0
+SOURCE: Synthetic demonstration data
+
+PRINCIPAL INVESTIGATOR
+
+Dr. Maya Chen
+Department of Biomedical Engineering
+
+PROJECT SUMMARY
+
+The AI-Assisted Clinical Decision Support project investigates methods
+for using machine learning to support clinical research workflows.
+
+The project includes development and evaluation of artificial intelligence
+models for research decision support.
+
+SPONSOR
+
+National Science Foundation
+
+GRANT IDENTIFIER
+
+GRANT-001
+
+PROJECT STATUS
+
+Active
+
+AWARD AMOUNT
+
+$450,000
+
+COMPLIANCE NOTES
+
+The project is subject to applicable institutional research policies,
+including financial conflict-of-interest requirements.
